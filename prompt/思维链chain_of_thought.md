@@ -23,11 +23,10 @@
 ![这是图片](https://github.com/jiayuchennlp/reading_papers/blob/main/prompt/pictures/auto-cot%E6%B5%81%E7%A8%8B%E5%9B%BE.png "Magic Gardens")
 - 问题
   - 如何选出有代表性的例子
-    1. Retrieval-Q-CoT： Sentence-bert + cosine
-    2. Random-Q-CoT
+    1. Retrieval-Q-CoT：基于检索的方法，返回与test data最相近的top k
+    2. Random-Q-CoT： 随机选择k个
   - 如何处理Zero-Shot-CoT生成错误的CoT？
-    1. Retrieval-Q-CoT更容易受到错误的影响
-    2. 存在一个簇，Zero-Shot-CoT更多发生
+    1. Retrieval-Q-CoT更容易受到错误的影响，当一个簇中的其中一个问句产生了错误的cot，同簇中的其他问句有更大的可能性也会产生错误的cot
     3. 随机采样带来的多样性可以缓解
    
 
