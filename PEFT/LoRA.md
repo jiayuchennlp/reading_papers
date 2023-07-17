@@ -33,7 +33,7 @@ $$h = W_0x + \Delta Wx =  W_0x + AB$$
 
 ### Experiments
 ---
-baseline
+Baseline
 1. Fine-Tuning(FT)
 2. Bias-only or BitFit : only train the bias vectors
 3. Prefix-embedding tuning (PreEmbed): inserts special tokens among the input tokens
