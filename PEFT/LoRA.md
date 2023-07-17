@@ -44,6 +44,11 @@ baseline
      3. $Adapter^P$
      4. $Adapter^D$
 
+<div align=center>
+<img src=https://github.com/jiayuchennlp/reading_papers/blob/main/PEFT/pictures/LoRA-2.png/>
+</div>
+
+
 
 
 
